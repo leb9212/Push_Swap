@@ -6,14 +6,14 @@
 #    By: elee <marvin@42.fr>                        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/14 14:34:35 by elee              #+#    #+#              #
-#    Updated: 2016/11/18 14:08:23 by elee             ###   ########.fr        #
+#    Updated: 2017/06/11 17:28:44 by elee             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME_CHECKER = checker
 NAME_PUSHSWAP = push_swap
 
-PATH_LIBFT = ../libft
+PATH_LIBFT = ./libft
 PATH_CHECKER = ./dir_checker
 PATH_PUSHSWAP = ./dir_push_swap
 

@@ -6,7 +6,7 @@
 #    By: elee <marvin@42.fr>                        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/08/27 21:33:26 by elee              #+#    #+#              #
-#    Updated: 2016/11/18 14:08:56 by elee             ###   ########.fr        #
+#    Updated: 2017/06/11 17:29:20 by elee             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ $(NAME):
 	mkdir -p objs/
 	$(CC) $(CFLAGS) -c $(addprefix srcs/, $(SRCS)) -I$(INCS)
 	mv $(OBJS) objs/
-	gcc $(addprefix objs/, $(OBJS)) ../../libft/libft.a -o $(NAME)
+	gcc $(addprefix objs/, $(OBJS)) ../libft/libft.a -o $(NAME)
 
 clean:
 	/bin/rm -rf $(addprefix objs/, $(OBJS))
